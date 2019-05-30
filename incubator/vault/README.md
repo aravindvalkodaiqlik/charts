@@ -77,6 +77,7 @@ The following table lists the configurable parameters of the Vault chart and the
 | `podAnnotations`                  | Annotations for pods                     | `{}`                                |
 | `podLabels`                       | Extra labels for pods                    | `{}`                                |
 | `serviceAccount.create`           | Specifies whether a ServiceAccount should be created | `false`                 |
+| `rbac.enabled`                    | Specifies whether RBAC should be enabled | `false`                             |
 | `consulAgent.join`                | If set, start start a consul agent       | `nil`                               |
 | `consulAgent.repository`          | Container image for consul agent         | `consul`                            |
 | `consulAgent.tag`                 | Container image tag for consul agent     | `1.4.0`                             |
